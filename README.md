@@ -1,2 +1,24 @@
-# food_pipeline
-pyspark ETL using the database of Open Food Facts
+# Open Food Facts ETL pipeline in PySpark
+
+In this project, we are using the Open Food Facts database to create an ETL pipeline in PySpark
+
+## Installation
+
+* We need to have installed PySpark
+
+
+
+## Usage
+To run this ETL, we will use the spark-submit command, send the main_etl.py file as the following example:
+
+```bash
+
+spark-submit /home/path/of/file/main_etl.py
+```
+if you want to know more about spark-submit, check the next page:
+
+
+[Spark Submit Command ](
+https://sparkbyexamples.com/spark/spark-submit-command/?expand_article=1)
+
+As result, we obtain a table in a PostgreSQL database with cleaned and the most important data of the database
