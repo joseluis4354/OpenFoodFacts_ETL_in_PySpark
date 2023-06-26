@@ -10,7 +10,6 @@ from load import load_data
 
 spark = start_sparkSession()
 
-sqlContext = create_sqlcontext(spark)
 
 # Extracting the data
 
