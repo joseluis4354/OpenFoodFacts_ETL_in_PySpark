@@ -3,7 +3,7 @@
 We are using the Open Food Facts database to create an ETL pipeline in PySpark
 
 [Open Food Facts](
-[https://world.openfoodfacts.org/)
+https://world.openfoodfacts.org/)
 
 
 ## Installation
